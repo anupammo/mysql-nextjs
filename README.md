@@ -41,8 +41,8 @@ Ensure the following tools are installed on your machine:
 
 #### **1. Clone the Repository**
 ```bash
-git clone <repository-url>
-cd <repository-folder>
+git clone [<repository-url>](https://github.com/anupammo/mysql-nextjs.git)
+cd mysql-nextjs
 ```
 
 #### **2. Install Dependencies**
@@ -69,7 +69,7 @@ DB_HOST=localhost
 DB_USER=root
 DB_PASSWORD=yourpassword
 DB_NAME=nextjs_db
-DB_PORT=3306
+DB_PORT=3307
 ```
 Replace `yourpassword` with your MySQL root password (leave blank if no password).
 
@@ -87,18 +87,18 @@ Visit [http://localhost:3000](http://localhost:3000) in your browser to view the
 my-nextjs-project/
 ├── src/
 │   ├── app/
-│   │   ├── globals.css        # Global styles
-│   │   ├── layout.tsx         # Application layout
-│   │   └── page.tsx           # Main page
-│   ├── utils/
-│   │   └── db.js              # MySQL database connection
+│   │   ├── globals.css          # Global styles
+│   │   ├── layout.tsx           # Application layout
+│   │   └── page.tsx             # Main page
 │   └── api/
-│       └── employees/route.js # API route for fetching employee data
+│       └── employees
+│           └── route.js         # API route for fetching employee data
 ├── database/
-│   └── nextjs_db.sql          # Database schema and sample data
-├── .env                        # Environment variables
-├── package.json                # Project dependencies
-└── README.md                   # Project documentation
+│   └── nextjs_db.sql            # Database schema and sample data
+└── db.js                        # MySQL database connection
+├── .env                         # Environment variables
+├── package.json                 # Project dependencies
+└── README.md                    # Project documentation
 ```
 
 ---
@@ -134,8 +134,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ---
 
 ## **Contact**
-For questions or support, feel free to reach out to [Your Name or Email].
-
----
-
-This version is formatted specifically for GitHub, with proper headers, markdown-friendly tables, and code blocks. You can replace placeholders (like `<repository-url>` and `Your Name or Email`) as needed. Let me know if you'd like any further adjustments! 🚀
+For questions or support, feel free to reach out to [Anupam Mondal](https://anupammondal.in/).
