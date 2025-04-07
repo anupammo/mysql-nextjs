@@ -1,7 +1,3 @@
-Sure, I'll format the content of the README to make it GitHub-friendly, with proper markdown styling. Here's the updated version:
-
----
-
 # **Next.js Project with MySQL Integration**
 
 ## **Description**
