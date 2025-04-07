@@ -41,7 +41,7 @@ Ensure the following tools are installed on your machine:
 
 #### **1. Clone the Repository**
 ```bash
-git clone [<repository-url>](https://github.com/anupammo/mysql-nextjs.git)
+git clone https://github.com/anupammo/mysql-nextjs.git
 cd mysql-nextjs
 ```
 
